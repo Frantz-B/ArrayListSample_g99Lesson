@@ -11,5 +11,8 @@ class ArrayListSample{
 		System.out.println("\n\nUpdate to my list contains :"+sampleList);
 		sampleList.add(2 , "Forward");
 		System.out.println("\n\nNow for a complete sentance :"+sampleList);
+		//I can add a remove() method but concept of this drove home
+		//What was very interested was the ArrayList from http://www.dotnetperls.com/arraylist-java
+		// where it was parameterized with a custom class 'Philosopher' which was really cool.
 	}
 }
